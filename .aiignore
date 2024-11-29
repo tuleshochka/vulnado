@@ -1,0 +1,13 @@
+.git/
+.idea/
+.vscode/
+.vs/
+*.gif
+.gitignore
+.gitmodules
+.gitattributes
+/dist
+/tmp
+/out-tsc
+node_modules/
+jspm_packages/

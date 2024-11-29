@@ -1,0 +1,32 @@
+{
+    "ProjectName": "vulnado",
+    "ProgrammingLanguages": [
+        "Java",
+        "JavaScript"
+    ],
+    "ScanModules": [
+        "StaticCodeAnalysis",
+        "PatternMatching",
+        "Components",
+        "Configuration"
+    ],
+    "SkipGitIgnoreFiles": true,
+    "JavaScriptSettings": {
+        "UsePublicAnalysisMethod": true,
+        "UseTaintAnalysis": true,
+        "UseJsaAnalysis": true,
+        "DownloadDependencies": true
+    },
+    "JavaSettings": {
+        "UnpackUserPackages": false,
+        "Version": "17",
+        "UsePublicAnalysisMethod": true,
+        "DownloadDependencies": true
+    },
+    "PmTaintSettings": {
+        "UsePublicAnalysisMethod": true
+    },
+    "BlackBoxSettings": {
+        "Site": "http://localhost"
+    }
+}
